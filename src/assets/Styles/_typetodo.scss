@@ -1,0 +1,37 @@
+typetodo{
+    min-height: 100vh;
+    .type-todo-section{
+
+        h2{
+            color: rgb(26, 46, 134);
+            font-size: 2.5rem;
+            font-weight: bolder;
+        }
+        input{
+            border: .1rem solid rgb(70, 127, 180);
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            outline: none;
+            height: 4rem;
+        }
+        textarea{
+            border: .1rem solid rgb(70, 127, 180);
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            outline: none;
+            min-height: 10rem;
+        }
+        Button{
+            width: 40%;
+            border: none;
+            border-radius: 3px;
+            outline: none;
+            font-size: 1rem;
+            background-color: rgb(7, 216, 0);
+
+            &:hover{
+                background-color: rgb(0, 133, 40);
+            }
+        }
+    }
+}
