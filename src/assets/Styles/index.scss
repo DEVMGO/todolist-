@@ -1,54 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 
 @import "~bootstrap/scss/bootstrap";
 
-@import './todo';
-@import './typetodo';
+@import "./todo";
+@import "./typetodo";
 
-
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-main{
-    
+main {
+    .app2 {
         // background: linear-gradient(176deg, rgba(213,213,218,1) 22%, rgba(86,63,190,0.7262255243894433) 100%);
-    // background: url("https://cdn.studenti.stbm.it/images/2018/08/29/date-esame-terza-media-2019-orig.jpeg");
-    background: url("./../img/11.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    
-    // filter: blur(5px);
-    // -webkit-filter: blur(5px);
+        // background: url("https://cdn.studenti.stbm.it/images/2018/08/29/date-esame-terza-media-2019-orig.jpeg");
+        background: url("./../img/10.jpg");
+        background-size: cover;
+        // background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: -999999;
 
-    
-    .todo-main{
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+
+    .todo-main {
         height: 100vh;
 
-        .todobar{
+        .todobar {
             // background: deeppink;
-            height: 60vh;
+            // height: 60vh;
             overflow-y: auto;
-    
-            &::-webkit-scrollbar{
+
+            &::-webkit-scrollbar {
                 width: 10px;
             }
-            &::-webkit-scrollbar-track{
+            &::-webkit-scrollbar-track {
                 width: 10px;
                 border-radius: 2rem;
                 background-color: rgb(255, 255, 255);
             }
-            &::-webkit-scrollbar-thumb{
+            &::-webkit-scrollbar-thumb {
                 width: 10px;
                 border-radius: 2rem;
                 background-color: #003f52;
             }
-        
         }
     }
 }
-
-
-
